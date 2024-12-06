@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    width: 500px;
+    background:rgba(128, 128, 128, 0.815);
+    padding-bottom:30px ;
+    border-radius: 50px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.text{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 420px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 19px;
+}
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background: black;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 60px auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
