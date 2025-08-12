@@ -16,7 +16,7 @@ function BodyContent() {
     <HeaderContent/>
     <div className='marquee'>
      
-      <marquee><b>Buy Bookz online shop </b></marquee> 
+      <b>Buy Bookz online shop </b>
       
     </div>
    

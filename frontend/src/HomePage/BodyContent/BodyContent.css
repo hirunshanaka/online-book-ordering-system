@@ -1,8 +1,9 @@
 .marquee{
     font-size: 35px;
-    color: yellow;
-    font-family: Lucida Handwriting;
+    color: rgb(5, 5, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 50px;
+    text-align: center;
 }  
   .image-gallery {
     display: flex;
@@ -14,7 +15,7 @@
   }
   
   .image {
-    width: 200px;
+    width: 280px;
     height: 150px;
     cursor: pointer;
     object-fit: cover;
